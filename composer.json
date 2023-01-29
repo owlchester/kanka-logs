@@ -1,0 +1,18 @@
+{
+    "name": "owlchester/kanka-logs",
+    "description": "Elasticlog and Kibana for self-hosted Kanka",
+    "autoload": {
+        "psr-4": {
+            "Owlchester\\KankaLogs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ilestis",
+            "email": "jay.payne.ch@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/sail": "^1.18"
+    }
+}
